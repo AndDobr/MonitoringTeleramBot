@@ -5,7 +5,7 @@ from telebot import types, TeleBot
 from telebot.types import *
 from sqlite3 import connect
 
-bot = TeleBot(token='5420641431:AAEFYhXGzgpPCr6akJjvRYOl6aLI6LOASyM')
+bot = TeleBot(token='secret')
 
 keyb1 = types.ReplyKeyboardMarkup()
 keyb1.add(KeyboardButton('Панель админа 😎'))
